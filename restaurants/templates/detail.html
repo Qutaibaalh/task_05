@@ -5,6 +5,12 @@
         <title>Detail</title>
     </head>
     <body>
+    	<a href="{% url 'restaurant-detail' restaurant.id %}">
+        
+        	{{restaurant.name}}
+        	{{restaurant.description}}
+        	{{restaurant.openinng_time}}
+        	{{restaurant.closing_time}}
         
     </body>
 </html>
